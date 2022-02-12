@@ -1,0 +1,135 @@
+* {
+	box-sizing: border-box;
+}
+
+.body{
+	background: #F1E7D2;
+	overflow-y: hidden;
+}
+
+.cube1 {
+	border: 2px dotted #717F96;
+	width:500px;
+	height:500px;
+	margin: 0 auto;
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+   align-items: center;
+	border-radius: 15%;
+}
+
+.cube2 {
+	border: 5px solid #96B3B3;
+	width:450px;
+	height:450px;
+	display: flex;
+	justify-content: center;
+   align-items: center;
+	flex-direction: column;
+	border-radius: 15%;
+	position:relative;
+	padding: 15px;
+}
+
+.small-cube1{
+	width: 110px;
+	height: 110px;
+	border: 2px dotted #CDBBB4;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	z-index: 10;
+	margin: -60px;
+	background-color: #F1E7D2;
+	display: flex;
+	justify-content: center;
+   align-items: center;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.small-cube2{
+	width: 22px;
+	height: 22px;
+	border: none;
+	z-index: 10;
+	background-color: #CDBBB4;
+	transition: 5s;
+	position:absolute;
+	left: 42px;
+	top: 42px;
+}
+
+.small-circle{
+	border-radius: 100%;
+	width: 70px;
+	height: 70px;
+	border: 5px solid #CDBBB4;
+	display: flex;
+	justify-content: center;
+   align-items: center;
+	transition: 1.5s;
+	position:relative;
+}
+
+.tip{
+	display: relative;
+	width: 0px;
+	height: 0px;
+	margin-left: 100px;
+	transition: 1s;
+}
+
+.tip.hidden{
+	opacity: 0%;
+}
+
+.text{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.author{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	text-align: center;
+}
+
+.language{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	text-align: center;
+	color: #96B3B3;
+	margin-top: 100px;
+	transition: 1s;
+	cursor: pointer;
+}
+
+.text-container{
+	display: flex;
+	justify-content: center;
+   align-items: center;
+	flex-direction: column;
+	height: 400px;
+}
+
+.footer{
+	display: flex;
+	justify-content: flex-end;
+   align-items: center;
+	flex-direction: row;
+	color: #717F96;
+	gap: 7px;
+}
+
+.footer a{
+	text-decoration: none;
+	color: #717F96;
+}
+
+.footer p{
+	color: #717F96;
+}
