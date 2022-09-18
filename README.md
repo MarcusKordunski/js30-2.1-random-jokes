@@ -12,7 +12,8 @@ git clone https://github.com/MarcusKordunski/js30-2.1-random-jokes.git
 ### Deploy
 https://marcuskordunski.github.io/js30-2.1-random-jokes/
 ## Quotes
-App takes random quote from quotes.json database
+* App takes random quote from quotes.json database
+* Quotes in two languages are available 
 ## Built With
 * [Javascript](https://www.javascript.com/) - Javascript is a programming language that is one of the core technologies of the World Wide Web.
 * HTML5 - HTML5 is a markup language used for structuring and presenting content on the World Wide Web.
