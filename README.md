@@ -1,4 +1,4 @@
-# js30-2.1-random-jokes
+# Random-quotes
 ### Javascript app that shows random quote
 
 ![image](https://user-images.githubusercontent.com/95471509/190904893-d407a2c4-8a76-4342-8a71-ecfbabe6e20c.png)
